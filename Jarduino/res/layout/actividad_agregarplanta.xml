@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/textView1"
+		style="@style/titulo"
+		android:text="@string/arduino" />
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="38dp"
+		android:contentDescription="@string/logo"
+		android:src="@drawable/plantas" />
+
+	<EditText
+		android:id="@+id/ediNombre"
+		style="@style/edittext.new"
+		android:layout_below="@id/imageView1"
+		android:layout_marginTop="38dp"
+		android:hint="@string/nombre" />
+
+	<EditText
+		android:id="@+id/ediTemp"
+		style="@style/edittext.new"
+		android:layout_below="@id/ediNombre"
+		android:layout_marginTop="15dp"
+		android:drawableLeft="@drawable/temperatura"
+		android:hint="@string/temp1" />
+
+	<EditText
+		android:id="@+id/ediHumedad"
+		style="@style/edittext.new"
+		android:layout_below="@id/ediTemp"
+		android:layout_marginTop="15dp"
+		android:drawableLeft="@drawable/humedad"
+		android:hint="@string/hum1" />
+
+	<EditText
+		android:id="@+id/ediUv"
+		style="@style/edittext.new"
+		android:layout_below="@id/ediHumedad"
+		android:layout_marginTop="15dp"
+		android:drawableLeft="@drawable/uv"
+		android:hint="@string/uv1" />
+
+	<EditText
+		android:id="@+id/ediLuz"
+		style="@style/edittext.new"
+		android:layout_below="@id/ediUv"
+		android:layout_marginTop="15dp"
+		android:drawableLeft="@drawable/luz"
+		android:hint="@string/luz1" />
+
+	<Button
+		android:id="@+id/btnAceptar"
+		style="@style/boton.boton1"
+		android:layout_below="@id/ediLuz"
+		android:layout_marginTop="15dp"
+		android:text="@string/agregar" >
+	</Button>
+
+</RelativeLayout>

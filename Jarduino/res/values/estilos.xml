@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="eltema" parent="android:style/Theme.Black.NoTitleBar">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@drawable/madera</item>
+	</style>
+
+	<style name="titulo" parent="@android:style/TextAppearance.Large">
+		<item name="android:background">@drawable/fondo_verde</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentTop">true</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/blanco</item>
+		<item name="android:textSize">27sp</item>
+		<item name="android:shadowColor">@color/negronegro</item>
+		<item name="android:shadowDx">2</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">4</item>
+	</style>
+
+	<style name="menu" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">131dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">@color/negro</item>
+		<item name="android:shadowRadius">1.5</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+	</style>
+
+	<style name="link" parent="@android:style/TextAppearance.Small">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColorLink">@color/blanco</item>
+		<item name="android:shadowColor">@color/verde</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:shadowDx">.5</item>
+		<item name="android:shadowDy">.5</item>
+	</style>
+
+	<style name="edittext" parent="android:style/Widget.EditText">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:background">@color/negro</item>
+		<item name="android:textColor">@color/blanco</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:focusableInTouchMode">true</item>
+		<item name="android:clickable">true</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textColorHint">@color/grisgris</item>
+		<item name="android:textColorHighlight">@color/grisesito</item>
+		<item name="android:adjustViewBounds">true</item>
+		<item name="android:drawablePadding">5dp</item>
+	</style>
+
+	<style name="edittext.new">
+		<item name="android:layout_width">251dp</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:drawablePadding">15dp</item>
+	</style>
+
+	<style name="boton">
+		<item name="android:layout_height">41dp</item>
+		<item name="android:layout_width">131dp</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/blanco</item>
+		<item name="android:background">@drawable/boton</item>
+	</style>
+
+	<style name="boton.boton1">
+		<item name="android:layout_width">231dp</item>
+		<item name="android:layout_centerHorizontal">true</item>
+	</style>
+
+	<style name="dashboard" parent="android:style/Widget.ImageButton">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:drawablePadding">2dp</item>
+		<item name="android:background">@null</item>
+	</style>
+
+	<!-- otros -->
+
+	<style name="labelGrande">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">10pt</item>
+		<item name="android:textColor">@color/verde</item>
+		<item name="android:shadowColor">@color/negro</item>
+		<item name="android:shadowDx">2</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">4</item>
+	</style>
+
+	<style name="labelGrande.blanco">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/blanco</item>
+	</style>
+
+	<style name="labelChico">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">6pt</item>
+		<item name="android:textColor">@color/blanco</item>
+	</style>
+
+	<style name="lista" parent="@android:style/Widget.ListView">
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:fastScrollEnabled">true</item>
+		<item name="android:dividerHeight">.3dp</item>
+		<item name="android:divider">@drawable/boton</item>
+		<item name="android:cacheColorHint">@color/cafe1</item>
+	</style>
+
+	<style name="labelNormal">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">8pt</item>
+		<item name="android:textColor">@color/verde</item>
+	</style>
+
+	<style name="imgPlanta">
+		<item name="android:layout_width">20dip</item>
+		<item name="android:layout_height">20dip</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:padding">5dip</item>
+	</style>
+
+	<style name="textbox">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:textSize">10pt</item>
+		<item name="android:background">@color/blanco</item>
+		<item name="android:inputType">text</item>
+	</style>
+
+	<style name="label">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">8pt</item>
+		<item name="android:textColor">@color/verde</item>
+	</style>
+
+</resources>

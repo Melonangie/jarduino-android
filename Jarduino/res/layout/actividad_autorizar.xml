@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin" >
+
+	<ImageView
+		android:id="@+id/logo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:contentDescription="@string/logo"
+		android:src="@drawable/weed" />
+
+	<EditText
+		android:id="@+id/usuario"
+		style="@style/edittext"
+		android:layout_below="@+id/logo"
+		android:layout_marginTop="30dp"
+		android:drawableLeft="@drawable/contacts"
+		android:hint="@string/usuario" >
+
+		<requestFocus />
+	</EditText>
+
+	<EditText
+		android:id="@+id/clave"
+		style="@style/edittext"
+		android:layout_below="@+id/usuario"
+		android:layout_marginTop="20dp"
+		android:drawableLeft="@drawable/unlock"
+		android:hint="@string/clave"
+		android:inputType="textPassword" />
+
+	<Button
+		android:id="@+id/bAutorizar"
+		style="@style/boton"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/clave"
+		android:layout_marginTop="30dp"
+		android:text="@string/entrar" />
+
+	<TextView
+		android:id="@+id/link"
+		style="@style/link"
+		android:layout_below="@+id/bAutorizar"
+		android:layout_marginTop="20dp"
+		android:text="@string/link" />
+
+</RelativeLayout>

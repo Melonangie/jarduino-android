@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/textView1"
+		style="@style/titulo"
+		android:text="@string/arduino" />
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="38dp"
+		android:contentDescription="@string/logo"
+		android:src="@drawable/arduino" />
+
+	<Button
+		android:id="@+id/btnBomba"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/imageView1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="40dp"
+		android:background="@color/verde"
+		android:padding="5dp"
+		android:text="@string/hum"
+		android:textColor="@color/blanco" />
+
+	<TextView
+		android:id="@+id/lblIdBomba"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/imageView1"
+		android:layout_marginTop="20dp"
+		android:layout_toRightOf="@id/btnBomba"
+		android:text="0"
+		android:textColor="@color/blanco"
+		android:textSize="6pt"
+		android:visibility="invisible" />
+
+	<TextView
+		android:id="@+id/lblStatusB"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblIdBomba"
+		android:layout_toRightOf="@id/btnBomba"
+		android:text="0"
+		android:textColor="@color/blanco"
+		android:textSize="6pt"
+		android:visibility="invisible" />
+
+	<Button
+		android:id="@+id/btnLuz"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/btnBomba"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:background="@color/verde"
+		android:padding="5dp"
+		android:text="@string/hum"
+		android:textColor="@color/blanco" />
+
+	<TextView
+		android:id="@+id/lblIdLuz"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btnBomba"
+		android:layout_marginTop="20dp"
+		android:layout_toLeftOf="@id/btnLuz"
+		android:text="0"
+		android:textColor="@color/blanco"
+		android:textSize="6pt"
+		android:visibility="invisible" />
+
+	<TextView
+		android:id="@+id/lblStatusLuz"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblIdLuz"
+		android:layout_toLeftOf="@id/btnLuz"
+		android:text="0"
+		android:textColor="@color/blanco"
+		android:textSize="6pt"
+		android:visibility="invisible" />
+
+	<Button
+		android:id="@+id/btnUv"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btnLuz"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:background="@color/verde"
+		android:padding="5dp"
+		android:text="@string/hum"
+		android:textColor="@color/blanco" />
+
+	<TextView
+		android:id="@+id/lblIdUv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btnLuz"
+		android:layout_marginTop="20dp"
+		android:layout_toRightOf="@id/btnUv"
+		android:text="0"
+		android:textColor="@color/blanco"
+		android:textSize="6pt"
+		android:visibility="invisible" />
+
+	<TextView
+		android:id="@+id/lblStatusUv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblIdUv"
+		android:layout_toRightOf="@id/btnUv"
+		android:text="0"
+		android:textColor="@color/blanco"
+		android:textSize="6pt"
+		android:visibility="invisible" />
+
+</RelativeLayout>

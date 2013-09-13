@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="negro">#39000000</color>
+	<color name="negronegro">#c63336</color>
+	<color name="blanco">#FFFFFF</color>
+	<color name="gris">#505050</color>
+	<color name="grisesito">#C0C0C0</color>
+	<color name="grisgris">#CCCCCC</color>
+	<color name="verde">#66CD00</color>
+	<color name="rojo">#C63336</color>
+	<color name="cafe1">#8B3626</color>
+	<color name="cafe2">#B13E0F</color>
+
+</resources>

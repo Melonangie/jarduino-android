@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Jarduino</string>
+	<string name="action_settings">Propiedades</string>
+	<string name="logo">Jarduino! Logo</string>
+	<string name="jarduino">Jarduino!</string>
+	<string name="saludo">¡Bienvenido!</string>
+	<string name="login">Autentificate</string>
+	<string name="usuario">Usuario</string>
+	<string name="nombre">Nombre Completo</string>
+	<string name="correo">Correo Electronico</string>
+	<string name="clave">Clave</string>
+	<string name="Registrar">Registrate</string>
+	<string name="entrar">ENTRA</string>
+	<string name="cancelar">Cancelar</string>
+	<string name="plantas">Plantas</string>
+	<string name="paquetes">Sensores</string>
+	<string name="nuevopaquete">Agregar Paquete</string>
+	<string name="arduino">Moverle Arduino</string>
+	<string name="link"><a href="http://jarduino.x10.mx">¿Ahun no tienes una cuenta?</a></string>
+	<string name="id">Id</string>
+	<string name="nombrePaquete">Paquete</string>
+	<string name="temp">Temp:</string>
+	<string name="hum">Hum:</string>
+	<string name="uv">Uv:</string>
+	<string name="luz">Luz:</string>
+	<string name="temp1">Temperatura</string>
+	<string name="hum1">Humedad</string>
+	<string name="uv1">Rayos Uv</string>
+	<string name="luz1">Luz</string>
+	<string name="sensores">Valor de Sensores:</string>
+	<string name="paquete">Sus Paquetes</string>
+	<string name="plantas">Sus Plantas</string>
+	<string name="cargando">En Espera de sus datos...</string>
+	<string name="lPlanta">Mis Plantas</string>
+	<string name="nombre">Nombre:</string>
+	<string name="arduino">Controles:</string>
+	<string name="agregar">AGREGAR PLANTA</string>
+	<string name="datoss">Mi Informacion</string>
+	<string name="salir">CERRAR SESION</string>
+
+</resources>

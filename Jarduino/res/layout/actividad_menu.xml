@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/textView1"
+		style="@style/titulo"
+		android:text="@string/saludo" />
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="38dp"
+		android:contentDescription="@string/logo"
+		android:src="@drawable/menu" />
+
+	<ImageButton
+		android:id="@+id/btn_user"
+		style="@style/dashboard"
+		android:layout_alignLeft="@+id/imageView1"
+		android:layout_below="@+id/imageView1"
+		android:layout_marginTop="28dp"
+		android:contentDescription="@string/usuario"
+		android:src="@drawable/phome" />
+
+	<ImageButton
+		android:id="@+id/btn_pqtes"
+		style="@style/dashboard"
+		android:layout_alignRight="@+id/imageView1"
+		android:layout_alignTop="@+id/btn_user"
+		android:contentDescription="@string/paquetes"
+		android:src="@drawable/phoja" />
+
+	<ImageButton
+		android:id="@+id/btn_agregar"
+		style="@style/dashboard"
+		android:layout_alignLeft="@+id/btn_user"
+		android:layout_below="@+id/btn_user"
+		android:layout_marginTop="41dp"
+		android:contentDescription="@string/nuevopaquete"
+		android:src="@drawable/pgas" />
+
+	<ImageButton
+		android:id="@+id/btn_arduino"
+		style="@style/dashboard"
+		android:layout_alignLeft="@+id/btn_pqtes"
+		android:layout_alignTop="@+id/btn_agregar"
+		android:contentDescription="@string/arduino"
+		android:src="@drawable/ppower" />
+
+	<TextView
+		android:id="@+id/textsensores"
+		style="@style/menu"
+		android:layout_alignBaseline="@+id/textusuario"
+		android:layout_alignBottom="@+id/textusuario"
+		android:layout_marginLeft="24dp"
+		android:layout_toRightOf="@+id/btn_user"
+		android:text="@string/paquetes" />
+
+	<TextView
+		android:id="@+id/textarduino"
+		style="@style/menu"
+		android:layout_alignBaseline="@+id/textnuevopaq"
+		android:layout_alignBottom="@+id/textnuevopaq"
+		android:layout_alignLeft="@+id/textsensores"
+		android:text="@string/arduino" />
+
+	<TextView
+		android:id="@+id/textusuario"
+		style="@style/menu"
+		android:layout_below="@+id/btn_user"
+		android:layout_toLeftOf="@+id/textarduino"
+		android:text="@string/usuario" />
+
+	<TextView
+		android:id="@+id/textnuevopaq"
+		style="@style/menu"
+		android:layout_alignLeft="@+id/textusuario"
+		android:layout_below="@+id/btn_agregar"
+		android:text="@string/nuevopaquete" />
+
+</RelativeLayout>

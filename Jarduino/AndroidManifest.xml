@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="mx.utt.jarduino"
+	android:versionCode="1"
+	android:versionName="1.0" >
+
+	<uses-sdk
+		android:minSdkVersion="3"
+		android:targetSdkVersion="17" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<application
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:permission="android.permission.INTERNET"
+		android:theme="@style/eltema" >
+		<activity
+			android:name="mx.utt.jarduino.ActividadPrincipal"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="ActividadAgregar" >
+		</activity>
+		<activity android:name="ActividadArduino" >
+		</activity>
+		<activity android:name="ActividadMenu" >
+		</activity>
+		<activity android:name="ActividadPaquete" >
+		</activity>
+		<activity android:name="ActividadUsuario" >
+		</activity>
+		<activity android:name="ActividadAutorizar" >
+		</activity>
+		<activity android:name="ActividadPlantas" >
+		</activity>
+	</application>
+
+</manifest>

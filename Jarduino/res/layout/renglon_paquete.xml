@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="5dip" >
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:contentDescription="@string/logo"
+		android:src="@drawable/lista" />
+
+	<TextView
+		android:id="@+id/lblClave"
+		style="@style/labelChico"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:paddingTop="15dip"
+		android:text="@string/id"
+		android:visibility="invisible" >
+	</TextView>
+
+	<ImageView
+		android:id="@+id/imgTemp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblClave"
+		android:contentDescription="@string/temp"
+		android:paddingLeft="15dp"
+		android:src="@drawable/temperatura" />
+
+	<ImageView
+		android:id="@+id/imgHum"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblClave"
+		android:layout_toRightOf="@id/imgTemp"
+		android:contentDescription="@string/hum"
+		android:paddingLeft="50dip"
+		android:src="@drawable/humedad" />
+
+	<ImageView
+		android:id="@+id/imgUv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblClave"
+		android:layout_toRightOf="@id/imgHum"
+		android:contentDescription="@string/uv"
+		android:paddingLeft="50dip"
+		android:src="@drawable/uv" />
+
+	<ImageView
+		android:id="@+id/imgLuz"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/lblClave"
+		android:layout_toRightOf="@id/imgUv"
+		android:contentDescription="@string/luz"
+		android:paddingLeft="50dip"
+		android:src="@drawable/luz" />
+
+	<TextView
+		android:id="@+id/lblTemp"
+		style="@style/labelChico"
+		android:layout_below="@id/imgTemp"
+		android:paddingLeft="15dp"
+		android:text="@string/temp" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/lblHum"
+		style="@style/labelChico"
+		android:layout_below="@id/imgHum"
+		android:layout_toRightOf="@id/lblTemp"
+		android:paddingLeft="25dp"
+		android:text="@string/hum" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/lblUv"
+		style="@style/labelChico"
+		android:layout_below="@id/imgUv"
+		android:layout_toRightOf="@id/lblHum"
+		android:paddingLeft="25dip"
+		android:text="@string/uv" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/lblLuz"
+		style="@style/labelChico"
+		android:layout_below="@id/imgLuz"
+		android:layout_toRightOf="@id/lblUv"
+		android:paddingLeft="25dip"
+		android:text="@string/luz" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/lblDescripcion"
+		style="@style/labelGrande"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:text="@string/nombrePaquete" />
+
+</RelativeLayout>
